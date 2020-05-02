@@ -216,12 +216,12 @@ hr {
 }
 
 .service1:hover {
-	background: url("/home/sergio/webpage/web/freecoding/images/background.png") no-repeat center center;
+	background: url("./images/background.png") no-repeat center center;
 	background-size: cover;
 }
 
 .service2:hover {
-	background: url("https://cdn.pixabay.com/photo/2015/03/20/15/01/yoga-682326_960_720.jpg") no-repeat center center;
+	background: url("./images/classes.jpg") no-repeat center center;
 	background-size: cover;
 }
 
