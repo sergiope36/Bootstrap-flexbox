@@ -1,0 +1,339 @@
+
+@media (max-width:770px){	
+	#nav-bar a {
+		margin-bottom:10px !important;
+		font-size: 14px !important;
+		padding: 10px;
+	}
+
+	#header-img {
+		max-height: 50px !important;
+		max-width: 200px;
+		display:flex;	   
+	}
+
+	#about .container {
+		padding-top: 0px !important;
+	}
+	.flyerouter img {
+		max-height: 70px !important;
+		width: auto;
+	}
+
+	.flyerTittle {
+		font-size: 35px !important;
+	}
+
+	.details {
+		margin-right: 1px !important;	
+	}
+
+	.borderbox {
+		font-size: 20px !important	;
+		
+	}
+
+
+	.contacts {
+		flex-direction: column;
+	}
+
+
+}
+
+h2 {
+	font-weight: bold;
+	color:black;
+}
+
+#header {
+	display: flex;
+	background-color: transparent;
+	max-height: 100px;
+	display:-moz-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	align-items: center ;
+	justify-content: center;
+	position: absolute;
+	width: 100%;	
+}
+
+#header-img {
+   	max-height: 72px;
+	max-width: 260px;
+	display:flex;		  
+}
+
+#nav-bar {
+  background-color: transparent;
+  display: flex;      
+}
+
+#nav-bar a {
+	color: #8CB3BA;
+	text-decoration: none;
+  	font-size: 20px;
+  	font-weight: bolder;
+  	margin: 5px; 
+}
+
+#nav-bar a:hover {
+ 	color: white;
+  	border-bottom: 4px solid white;
+}
+
+.landingpage {
+	width:100%;
+	max-height: 710px;
+	margin-bottom:100px;
+	z-index: 1;		
+}
+  
+hr {
+	width: 50%;
+	height: 2px !important;
+	background-color: #320E3B;
+	margin-right: auto;
+	margin-left: 0;
+	margin-top: 3px !important;
+	margin-bottom: 5px;
+	border-width: 100px;
+	border-color: #320E3B;
+}
+
+.cont {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	flex-basis: 800px;
+	position: relative;
+	margin-bottom:70px;
+}
+
+#about text{
+	margin-bottom: 100px;
+}
+
+#about img {
+    width: 85%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+    z-index: 0;
+    margin: 0 10%;
+}
+
+
+#about .box, 
+.card {
+    background: #f6f5f5;
+    position: absolute;
+    width: 170px;
+	box-shadow: 0 -2px 12px rgba(0,0,0,0.05), 0 6px 12px rgba(0,0,0,0.12);
+	height: 70px;
+    top: -20px;
+    left: -30px;
+    z-index: 1
+}
+
+
+.flyerouter {
+	height: 300px;	
+	justify-content: space-around;
+	align-items: center;
+	border-top: 3px solid  #320E3B;
+	border-bottom: 3px solid  #320E3B;
+	margin-bottom: 50px;	
+}
+
+
+.flyerinner {
+	height: 270px;	
+	margin-top:10px;
+	border-top: 3px solid  #320E3B;
+	border-bottom: 3px solid  #320E3B;
+	text-align: center;
+	align-content: center;
+	align-items: center;	
+}
+
+.flyerinner1 {
+	height: 200px;		
+}
+
+.flyerinner2 {
+	height: 90px;	
+	padding: 0; 	
+}
+
+.flyerouter img {
+	max-height: 150px;
+	width: auto;
+}
+
+.flyerouter:hover {
+	transform: scale(1.05);	
+}
+
+.flyerTittle {
+	font-size: 300%;
+	bottom:0 !important;
+}
+
+
+.flyerText {
+	background-color: #320E3B;
+	width: 100%;
+	color: white;;
+	padding: 5px 
+}
+
+.description {
+
+	justify-content: center;
+	align-content: center;
+	border: 2px solid black;
+	display: flex;	
+}
+
+
+.service1, 
+.service2 {
+	height: 650px;
+	max-height: 700px;
+	background-color: rgb(202, 189, 189);
+	display: flex;
+	width: 100%;
+
+}
+
+.borderbox {
+	border: 4px solid #320D7F;
+	padding: 30px !important;
+	color: #320D7F	;
+}
+
+.service1:hover {
+	background: url("/home/sergio/webpage/web/freecoding/images/background.png") no-repeat center center;
+	background-size: cover;
+}
+
+.service2:hover {
+	background: url("https://cdn.pixabay.com/photo/2015/03/20/15/01/yoga-682326_960_720.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.service1:hover .borderbox,
+.service2:hover .borderbox	{
+	background-color: transparent;
+	border-radius: 50px;
+	padding: 3%;	
+	color: white;
+	font-weight: bold;
+	font-size: 150%;
+	border: 4px solid white	
+}
+
+.service1:hover .borderbox	{
+	background-color: transparent;
+	border-radius: 50px;
+	padding: 3%;	
+	color: black;
+	font-weight: bold;
+	font-size: 150%;
+	border: 4px solid #320D7F;	
+}
+
+
+.contact {
+	height: 400px;
+	max-width: 1100px;
+	display: flex;
+	margin-bottom: 5px;
+	margin-top: 50px;
+	
+}
+
+#form {
+	max-width: 400px;
+	width: auto;
+	background-color: white;
+	text-align: center;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.4);
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 70px;
+	padding-right: 70px;
+	margin-bottom: 80px;
+	align-items: center;
+	
+	
+}
+
+.details {
+	max-width: 550px;
+	width: auto;
+	margin-right: 60px;	
+	
+
+}
+
+.details img {
+	max-height: 40px !important;
+	max-width: 50px;		   
+}
+
+.button {
+	background-color:  #320E3B;
+	width: 100px;
+	padding:5px;
+	color: white;
+	border:0px;
+}
+
+button:hover {
+	transform: scale(1.1);
+	background-color: green;
+}
+
+
+@keyframes beat {
+  
+	0% {
+		transform: scale(1);
+	  }
+	  25% {
+		transform: scale(1);
+	  }
+	  40% {
+		transform: scale(1.1);
+	  }
+	  60% {
+		transform: scale(1.1);
+	  }
+	  100% {
+		transform: scale(1);
+	  }
+	}
+
+
+
+#footer {	
+	background-color: #320E3B;
+	width: 100%;
+	bottom: 0;
+	height: auto;     
+	position: relative;	
+
+}
+
+#footer img {
+	margin-right: 10px;
+	max-height: 50px !important;
+	padding-top:5px;
+}
+
+
+  
